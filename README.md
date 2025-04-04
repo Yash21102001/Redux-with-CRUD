@@ -1,12 +1,73 @@
-# React + Vite
+Redux with CRUD Operations
+This repository demonstrates how to implement CRUD (Create, Read, Update, Delete) operations using Redux in a React application.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Create new items
 
-Currently, two official plugins are available:
+Read/display existing items
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Update existing items
 
-## Expanding the ESLint configuration
+Delete items
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Redux state management
+
+Action creators and reducers
+
+Installation
+Clone the repository:
+
+bash
+Copy
+git clone https://github.com/Yash21102001/Redux-with-CRUD.git
+Navigate to the project directory:
+
+bash
+Copy
+cd Redux-with-CRUD
+Install dependencies:
+
+bash
+Copy
+npm install
+Start the development server:
+
+bash
+Copy
+npm start
+Usage
+The application will open in your default browser at http://localhost:3000
+
+Use the interface to perform CRUD operations:
+
+Add new items using the "Add" button/form
+
+View existing items in the list
+
+Edit items using the "Edit" option
+
+Delete items using the "Delete" option
+
+Redux Structure
+The Redux implementation follows this structure:
+
+Copy
+src/
+  ├── redux/
+  │   ├── actions/       # Action creators
+  │   ├── reducers/      # Reducers
+  │   ├── store.js       # Redux store configuration
+  │   └── constants.js   # Action type constants
+Dependencies
+React
+
+Redux
+
+React-Redux
+
+Redux-Thunk (if asynchronous actions are used)
+
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements.
+
+License
