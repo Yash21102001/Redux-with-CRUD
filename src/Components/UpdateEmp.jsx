@@ -16,7 +16,7 @@ const UpdateEmp = () => {
     let dispatch = useDispatch();
     let empData = useSelector((store) => store.employee.employee);
     const [allEmp, setAllEmp] = useState(empData);
-    const [department, setDepartment] = useState(["IT", "Account", "Sales", "Purchase"]);
+    const [department, setDepartment] = useState(["IT", "Accounts","HR"]);
 
     const [newEmp, setNewEmp] = useState(() => {
         let emp1 = {};
