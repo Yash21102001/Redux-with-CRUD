@@ -16,7 +16,7 @@ const AddEmp = () => {
     const empData = useSelector((store) => store.employee.employee);
     const [allEmp, setAllEmp] = useState(empData);
     const [newEmp, setNewEmp] = useState({});
-    const [department, setDepartment] = useState(["IT", "Account", "Sales", "Purchase"]);
+    const [department, setDepartment] = useState(["IT", "Accounts","HR"]);
     const [hobby, setHobby] = useState([]);
     const navigate = useNavigate();
 
